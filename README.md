@@ -21,15 +21,15 @@ The image can directorly pulled by
 `docker run -it --rm -p 9191:8080 somdeepjana/tomcat:bobbleai_devops bash`
 
 ## This Dockerfile Include
-1. Base TomCat Image
-2. Packages
-  1. netstat
-  2. telnet
-  3. curl
-  4. vim
-3. Sample Hellow world app for tomcat
-4. Enviorment Variables
-  1. role= app
-  2. env= dev
-  3. name= somdeep jana
-5. Export port 8080 default TCP
+1.  Base TomCat Image
+2.  Packages
+    * netstat
+    * telnet
+    * curl
+    * vim
+3.  Sample Hellow world app for tomcat
+4.  Enviorment Variables
+    * role= app
+    * env= dev
+    * name= somdeep jana
+5.  Export port 8080 default TCP
