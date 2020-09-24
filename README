@@ -1,8 +1,0 @@
-# Bobble AI DevOps Assignment
-
-
-docker image build -t somdeepjana/tomcat:bobbleai_devops ./
-
-docker run -it --rm -p 9191:8080 somdeepjana/tomcat:bobbleai_devops
-
-
